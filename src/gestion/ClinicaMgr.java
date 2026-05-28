@@ -33,7 +33,7 @@ public class ClinicaMgr implements ClinicaMgt {
     @Override
     public Turno llamarProximoPaciente()
             throws NoHayPacientesEsperando {
-        // TODO
+        Turno t = new Turno("a", new Paciente("2", "2", "2"), "w");
         return null;
     }
 
