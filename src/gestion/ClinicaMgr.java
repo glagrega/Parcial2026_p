@@ -34,6 +34,7 @@ public class ClinicaMgr implements ClinicaMgt {
     public Turno llamarProximoPaciente()
             throws NoHayPacientesEsperando {
         Turno t = new Turno("a", new Paciente("2", "2", "2"), "w");
+        String esp= t.getEspecialidad();
         return null;
     }
 
